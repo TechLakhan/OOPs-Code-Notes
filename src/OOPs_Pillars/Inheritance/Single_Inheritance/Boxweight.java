@@ -1,7 +1,11 @@
-package OOPs_Pillars.Inheritance.SingleInheritance;
+package OOPs_Pillars.Inheritance.Single_Inheritance;
 
 public class Boxweight extends Box {
     double weight;
+
+    static void message() {
+        System.out.println("I am in Boxweight class. Hurray !");
+    }
 
     public Boxweight() {
         this.weight = -1;
