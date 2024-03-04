@@ -2,10 +2,8 @@ package OOPs_Basic2.staticExample;
 
 
 
-public class InnerClasses {
-    static class Textation {
+class Textation {
         String name;
-
         public Textation(String name) {
             this.name = name;
         }
@@ -13,10 +11,20 @@ public class InnerClasses {
         public Textation(Textation other) {
             this.name = other.name;
         }
+
+        public Textation() {
+
+        }
+
+    @Override
+    public String toString() {
+        return "Textation{" +
+                "name='" + name + '\'' +
+                '}';
     }
 
     public static void main(String[] args) {
-//        Textation lakhan = new Textation("Lucky");
+        Textation lakhan = new Textation("Lucky");
         Textation shri = new Textation("Shri");
         Textation ram = new Textation();
 

@@ -1,4 +1,5 @@
-package OOPs_Pillars.Inheritance.SingleInheritance;
+package OOPs_Pillars.Inheritance.Multi_Level_Inheritance;
+
 
 public class Boxweight extends Box {
     double weight;
@@ -16,7 +17,7 @@ public class Boxweight extends Box {
         // To access the value of superclass if the same variable is present in subclass & superclass
         // here we can see that weight is present in both classes.
 
-        // if super is not used in subclass constructor then parent class will call the default constructor. i.e Box().
+        // if super is not used in subclass constructor, then parent class will call the default constructor. i.e Box().
         this.weight = weight;
     }
 
@@ -25,7 +26,7 @@ public class Boxweight extends Box {
         this.weight = weight;
     }
 
-    Boxweight (Boxweight other) {
+    Boxweight(Boxweight other) {
         super(other);
         this.weight = other.weight;
     }

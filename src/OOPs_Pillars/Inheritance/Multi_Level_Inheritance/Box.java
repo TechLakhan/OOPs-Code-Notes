@@ -1,4 +1,4 @@
-package OOPs_Pillars.Inheritance.SingleInheritance;
+package OOPs_Pillars.Inheritance.Multi_Level_Inheritance;
 
 public class Box {
     double l;
@@ -7,7 +7,7 @@ public class Box {
 
 //    double weight;
 
-    Box () {
+    Box() {
         super();
         this.l = -1;
         this.w = -1;
@@ -15,7 +15,7 @@ public class Box {
     }
 
 //    cube
-    Box (double side) {
+    Box(double side) {
         this.l = side;
         this.w = side;
         this.h = side;
@@ -27,7 +27,7 @@ public class Box {
         this.h = h;
     }
 
-    Box (Box old) {
+    Box(Box old) {
         this.l = old.l;
         this.w = old.w;
         this.h = old.h;

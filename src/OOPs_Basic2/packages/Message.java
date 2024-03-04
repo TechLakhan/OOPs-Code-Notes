@@ -1,4 +1,4 @@
-package OOPs_Basic2;
+package OOPs_Basic2.packages;
 
 public class Message {
     public static void main(String[] args) {

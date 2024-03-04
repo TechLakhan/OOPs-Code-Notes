@@ -1,7 +1,4 @@
-package OOPs_Pillars.Inheritance.SingleInheritance;
-
-import OOPs_Pillars.Inheritance.SingleInheritance.Box;
-import OOPs_Pillars.Inheritance.SingleInheritance.Boxweight;
+package OOPs_Pillars.Inheritance.Multi_Level_Inheritance;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,11 +17,16 @@ public class Main {
 //        Boxweight obj5 = new Boxweight(obj4, 18);
 //        System.out.println(obj5.l + " " + obj5.w + " "+ obj5.h + " " + obj5.weight);
 
-        Box obj7 = new Boxweight(2, 4, 8, 27);
-//        System.out.println(obj7.weight);
+//        Box obj7 = new Boxweight(2, 4, 8, 27);
+////        System.out.println(obj7.weight);
+//
+//        Box obj8 = new Boxweight(obj7);
+//        System.out.println(obj8.h + " " + obj8.weight);
 
-        Box obj8 = new Boxweight(obj7);
-        System.out.println(obj8.h + " " + obj8.weight);
+//        Boxprice obj9 = new Boxprice();
+//        System.out.println(obj9.price);
 
+        Boxprice object = new Boxprice(2,4,18, 20,22);
+        System.out.println(object.l + " " + object.w + " " + object.h + " " + object.weight );
     }
 }

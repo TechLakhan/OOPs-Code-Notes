@@ -1,11 +1,18 @@
-package OOPs_Pillars.Inheritance.SingleInheritance;
+package OOPs_Pillars.Inheritance.Single_Inheritance;
 
 public class Box {
     double l;
     double w;
-    double h;
+    private double h;
 
 //    double weight;
+    static void message() {
+        System.out.println("I am in Box class. Hurray !");
+    }
+
+    public double getH() {
+        return h;
+    }
 
     Box () {
         super();
