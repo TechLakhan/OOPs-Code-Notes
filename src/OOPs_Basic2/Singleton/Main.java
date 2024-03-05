@@ -1,5 +1,7 @@
 package OOPs_Basic2.Singleton;
 
+import OOPs_Pillars.AccessControl.Access;
+
 public class Main {
     public static void main(String[] args) {
 
