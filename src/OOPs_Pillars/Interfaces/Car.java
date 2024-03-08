@@ -2,15 +2,15 @@ package OOPs_Pillars.Interfaces;
 
 import java.util.Scanner;
 
-public class Car implements Engine, Speedcontroller {
+public class Car implements Engine, Speedcontroller, Media {
 
     @Override
-    public void start(String carName) {
+    public void start() {
         System.out.println("Car is starting");
     }
 
     @Override
-    public void stop(String carName) {
+    public void stop() {
         System.out.println("Car is stopping");
     }
 
