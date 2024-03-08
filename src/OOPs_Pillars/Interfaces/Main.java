@@ -13,3 +13,6 @@ public class Main {
         }
     }
 }
+
+//Variables are static & final by default in interfaces.
+//Interfaces only contains abstract method
